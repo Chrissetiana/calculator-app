@@ -96,4 +96,36 @@
         app:layout_constraintStart_toStartOf="@+id/button_add"
         app:layout_constraintTop_toBottomOf="@+id/button_add" />
 
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AC"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <Button
+        android:id="@+id/button_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="±"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <Button
+        android:id="@+id/button_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/button_equals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="369dp" />
+
 </android.support.constraint.ConstraintLayout>
